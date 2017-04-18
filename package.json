@@ -4,13 +4,13 @@
   "version": "2.0.2",
   "main": "lib/poet",
   "dependencies": {
-    "marked": "~0.3.2",
-    "jade": ">= 0.27.1",
-    "json-front-matter": ">= 0.1.4",
-    "underscore": "1.4.x",
     "front-matter": ">= 0.1.x",
-    "when": "2.1.x",
-    "fs-then": "0.1.x"
+    "fs-then": "0.1.x",
+    "jade": "git://github.com/mixmaxhq/jade-yarn-compatible.git#4421a9bfb589470e9577fbe0f8e43b768668f28a",
+    "json-front-matter": ">= 0.1.4",
+    "marked": "~0.3.2",
+    "underscore": "1.4.x",
+    "when": "2.1.x"
   },
   "devDependencies": {
     "mocha": ">= 1.3.2",
@@ -38,5 +38,7 @@
     "url": "http://github.com/jsantell"
   },
   "license": "MIT",
-  "engines": ["node >= 0.10.2"]
+  "engines": [
+    "node >= 0.10.2"
+  ]
 }
